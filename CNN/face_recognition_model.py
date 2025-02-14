@@ -2,7 +2,7 @@ import os
 import tarfile
 import tensorflow as tf
 from tensorflow import keras
-from keras.preprocessing.image import ImageDataGenerator
+from keras._tf_keras.keras.preprocessing.image import ImageDataGenerator
 import kagglehub
 
 # Download dataset
